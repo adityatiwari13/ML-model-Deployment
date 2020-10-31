@@ -34,3 +34,13 @@ If everything goes well, you should be able to see the predcited salary vaule on
 
 You can also send direct POST requests to FLask API using Python's inbuilt request module Run the beow command to send the request with some pre-popuated values -
 python request.py
+
+
+Now to deploy ML on public url I use Heroku (PaaS) using flask.
+To deploy your model in Huroku you two more files:
+Procfile : To tell Heroku Which is the first file to execute.
+Requirements : Here we mention all the libraries used in this model along their versions.
+
+https://predictsalary-adi.herokuapp.com/
+
+The to check whether model is working or not use above link. 
